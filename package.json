@@ -1,0 +1,26 @@
+{
+  "name": "magi",
+  "version": "1.0.0",
+  "description": "S.C Magi systems, originally by Naoko Akagi",
+  "main": "magi.js",
+  "scripts": {
+    "start": "node magi.js"
+  },
+  "author": "Seaweed Ryan",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.3",
+    "discord-rpc": "^3.1.4",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "env": "0.0.2",
+    "ffmpeg": "0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "memory-usage": "^1.2.1",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "ms": "^2.1.2",
+    "systeminformation": "^4.30.11",
+    "ytdl-core": "^4.1.1"
+  }
+}
