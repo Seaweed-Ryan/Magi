@@ -43,8 +43,9 @@ client.on('ready',() => {
 							client.commands.get('unmute').execute(message, args);
 							}else if (command === 'host') {
 							client.commands.get('host').execute(message, args,client);
-							}	
-
+							}else if (command ==='info') {
+							client.commands.get('info').execute(message, args,client);
+							}
 	});
 client.login(); 
 	
