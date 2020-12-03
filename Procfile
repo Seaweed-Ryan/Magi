@@ -1,1 +1,1 @@
-work node magi.js
+worker: node magi.js
