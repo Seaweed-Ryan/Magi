@@ -17,7 +17,7 @@ for (const file of commandfiles) {
 
 client.on('ready',() => {
 		console.log("__Melchor__ ->1 | __Balthazar__ ->2 | __Casper__ ->3");
-		client.user.setActivity("Magi v1.0.0 || Preaching Anime Thighs")
+		client.user.setActivity("Magi v1.00 || Preaching Anime Thighs")
 });
 
 
