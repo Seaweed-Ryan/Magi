@@ -45,7 +45,7 @@ module.exports = {
 
 		.addFields(
 			{ name: 'Uptime' , value: duration , inline: true},
-			{ name: 'Github', value: 'Coming Soon', inline: true },
+			{ name: 'Github', value:"https://github.com/Seaweed-Ryan/Magi", inline: true },
 		)
 
 		.setThumbnail('https://preview.redd.it/4p6p3b5o70541.png?width=640&crop=smart&auto=webp&s=87ff9136ddc51e77683d149c42d7249103ab3a67')
