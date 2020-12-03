@@ -30,9 +30,9 @@ module.exports = {
 
 				const host = new Discord.MessageEmbed()
 		.setColor('#ffdab9')	
-		.setAuthor('Heroku  | Cloud Application Platform', 'https://cdn.freebiesupply.com/logos/thumbs/2x/heroku-1-logo.png')
+		.setAuthor('Heroku  | Cloud Application Platform', 'https://www.clipartmax.com/png/middle/89-894960_js-discord-bot-logo-node-js-and-react-js.png')
 		.setTitle('System Information')
-		.setDescription('Server Statistics')
+		.setDescription('*Written in JS using node.js libraries*')
 		.addFields(
 			{ name: 'CPU', value: ''+manfu +''+ brand+'@' + speed+'GHz' },
 			{ name: 'Memory', value: ''+memG+'/'+memtoG+"GiB", inline: true },
