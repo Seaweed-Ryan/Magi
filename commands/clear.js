@@ -2,6 +2,7 @@ module.exports = {
 	name: 'clear',
 	description: 'clear messages',
 	async execute(message, args) {
+		if(!message.member.hasPermission('MANAGE_MESSAGES')) return message.reply("You lack the permission to do so(*pwawaha noob*)");
 		if(!args[0]) return message.reply("*specify no of messages*");
 		if(isNaN(args[0])) return message.reply("*specify no --no text*");
 		if(args[0] > 100) return message.reply("__maximum__ -- 100");
