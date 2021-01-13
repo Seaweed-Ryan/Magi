@@ -15,6 +15,7 @@
     "dotenv": "^8.2.0",
     "env": "0.0.2",
     "ffmpeg": "0.0.4",
+    "findthelyrics": "^1.0.7",
     "fluent-ffmpeg": "^2.1.2",
     "memory-usage": "^1.2.1",
     "moment": "^2.29.1",
