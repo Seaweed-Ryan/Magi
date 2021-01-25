@@ -47,6 +47,8 @@ client.on('ready',() => {
 							client.commands.get('info').execute(message, args,client);
 							}else if (command ==='lyrics') {
 							client.commands.get('lyrics').execute(message, args,client);
+							}else if (command ==='wow') {
+							client.commands.get('wow').execute(message, args,client);	
 							}
 	});
 client.login(); 
