@@ -6,13 +6,13 @@ module.exports = {
 
 const { promisify } = require('util')
 const sleep = promisify(setTimeout)
-
+let person = message.guild.member(message.mentions.users.first() || message.guild.members.fetch(args[1]));
 var i = 0;
 const spam = async() =>{		
 while (i < 1 )
 {
 	await sleep(500)
-	message.channel.send("I'm Horny",{ files: ["./houshou-marine-im-horny.mp3"] });
+	message.channel.send(`${person.user} not spamming`);
 	console.log("werks");
 }
 
