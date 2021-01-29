@@ -9,14 +9,22 @@ const sleep = promisify(setTimeout)
 let person = message.guild.member(message.mentions.users.first() || message.guild.members.fetch(args[1]));
 var i = 0;
 const spam = async() =>{		
-while (i < 1 )
+while (i < 100)
 {
 	await sleep(500)
-	message.channel.send(`${person.user} not spamming`);
-	console.log("werks");
+	message.channel.send(`${person.user} HAPPY BDAY UwU OwO`);
+
+	i++ 
 }
 
 			}
-spam()
+if(!message.member.hasPermission('MANAGE_MESSAGES')) return message.reply("You lack the permission to do so(*pwawaha noob*)");
+
+if(!args[0]) return message.reply("*specify user*");
+if(!person) return message.reply("User not found");
+
+
+else
+	spam()
 }
 }
