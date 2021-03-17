@@ -12,7 +12,7 @@ const spam = async() =>{
 while (i < 100)
 {
 	await sleep(500)
-	message.channel.send(`${person.user} HAPPY BDAY UwU OwO`);
+	message.channel.send(`${person.user} Dedicated`);
 
 	i++ 
 }
